@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ADPassLock_Example' do
+  pod 'ADPassLock', :path => '../'
+
+  target 'ADPassLock_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
