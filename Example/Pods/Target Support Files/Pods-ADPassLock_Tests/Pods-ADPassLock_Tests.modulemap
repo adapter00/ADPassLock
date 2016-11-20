@@ -1,0 +1,6 @@
+framework module Pods_ADPassLock_Tests {
+  umbrella header "Pods-ADPassLock_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

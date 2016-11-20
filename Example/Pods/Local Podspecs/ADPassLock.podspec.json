@@ -1,0 +1,22 @@
+{
+  "name": "ADPassLock",
+  "version": "0.1.0",
+  "summary": "A short description of ADPassLock.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/ADPassLock",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "adapter00": "adapter00@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/ADPassLock.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ADPassLock/Classes/**/*"
+}

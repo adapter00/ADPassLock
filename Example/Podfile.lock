@@ -1,0 +1,23 @@
+PODS:
+  - ADPassLock (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - ADPassLock (from `../`)
+  - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  ADPassLock:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ADPassLock: 1dee88b62c5d0037d6ea169212c3fad90dd7df3a
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: c873e84695b98efae9f602f01b88f99a90ed3dd2
+
+COCOAPODS: 1.2.0.beta.1

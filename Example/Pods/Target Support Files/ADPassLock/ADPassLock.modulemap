@@ -1,0 +1,6 @@
+framework module ADPassLock {
+  umbrella header "ADPassLock-umbrella.h"
+
+  export *
+  module * { export * }
+}

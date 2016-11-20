@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import ADPassLock
 
 class ViewController: UIViewController {
 
@@ -15,6 +16,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    @IBAction func didClickButton(_ sender: Any) {
+        let v = ADPassLockViewController()
+        self.present(v, animated: true, completion: nil)
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

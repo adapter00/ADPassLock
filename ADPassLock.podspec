@@ -32,9 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'ADPassLock/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'ADPassLock' => ['ADPassLock/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'ADPassLock' => ['*/*.xib']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
